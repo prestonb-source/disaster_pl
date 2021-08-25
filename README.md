@@ -44,6 +44,7 @@ This project, analyzes disaster data provided by Figure Eight to build a model f
 3. Go to http://0.0.0.0:3001/
 
 ![alt text](https://github.com/prestonb-source/disaster_pl/blob/b47e74c9161aaa484202157dcb2465400bb524c4/screenshots/graphs.JPG)
+![alt text](https://github.com/prestonb-source/disaster_pl/blob/b47e74c9161aaa484202157dcb2465400bb524c4/screenshots/message_classifier.JPG)
 
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
