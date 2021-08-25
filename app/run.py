@@ -43,9 +43,14 @@ def index():
     genre_counts = df.groupby('genre').count()['message']
     genre_names = list(genre_counts.index)
     
+    #plot top 10 disaster message category counts
+    cat_counts = df.iloc[:,4:].sum().sort_values(ascending=False)[1:11]
+    cats_names = list(cat_counts.index) #df[:,4:].columns   
+    
     # create visuals
     # TODO: Below is an example - modify to create your own visuals
     graphs = [
+        #graph 1 distribution of message genres
         {
             'data': [
                 Bar(
@@ -61,6 +66,27 @@ def index():
                 },
                 'xaxis': {
                     'title': "Genre"
+                }
+            }
+        },
+        
+        # GRAPH 2 - distribution of top 10 message categories    
+        {
+            'data': [
+                Bar(
+                    x=cats_names,
+                    y=cat_counts
+                )
+            ],
+
+            'layout': {
+                'title': 'Distribution of Top 10 Message Categories',
+                'yaxis': {
+                    'title': "Count"
+                },
+                'xaxis': {
+                    'title': "Category",
+                    'tickangle': 33
                 }
             }
         }
