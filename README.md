@@ -29,16 +29,16 @@ The specific libraries required are:
 This project, analyzes disaster data provided by Figure Eight to build a model for an API that classifies disaster messages. The purpose is to create an app that identifies relevant messages which can then be directed to the most appropriate emergency agencies.
 
 ## File Descriptions <a name="files"></a>
-####Data
+#### Data<br/>
 process_data.py - ETL pipeline for data cleaning, feature extraction and loading into SQL database<br/>
 disaster_categories.csv - raw data with message categories<br/>
 disaster_messages.csv - raw data with messages<br/>
 DisasterResponse.db - SQL database with cleaned data<br/>
 
-###Models
+### Models<br/>
 train_classifier.py - machine learning pipeline to predict message categories and store model in a pkl file
 
-###App
+### App<br/>
 run.py - script to run flask app<br/>
 templates - templates for flask app<br/>
 
