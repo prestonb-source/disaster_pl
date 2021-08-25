@@ -29,7 +29,7 @@ This project, analyzes disaster data provided by Figure Eight to build a model f
 
 ## File Descriptions <a name="files"></a>
 
-### Instructions <a name="instructions"></a>
+## Instructions <a name="instructions"></a>
 
 1. Run the following commands in the project's root directory to set up your database and model.
 

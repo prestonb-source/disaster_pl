@@ -107,12 +107,8 @@ def build_model():
 
 def evaluate_model(model, X_test, Y_test, category_names):
     
-    """Description of the function    
-    Parameters:   
-        model:
-        X_test:
-        Y_test:
-        category_names:
+    """Reports the f1 score, precision and recall for each output category of the dataset.     
+
     Returns:    
         n/a
     """

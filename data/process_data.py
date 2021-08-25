@@ -21,9 +21,9 @@ def clean_data(df):
     
     """Description of the function 
     Parameters:
-        df:
+        df: data frame to be cleaned
     Returns: 
-        >>
+        df: cleaned data frame
     """
     
     # create a dataframe of the 36 individual category columns
@@ -57,10 +57,10 @@ def clean_data(df):
 
 def save_data(df, database_filename):
     
-    """Saves database to specifile location    
+    """Saves database to specified file location    
     Parameters:
-        df:
-        database_filename:   
+        df: dataframe to save
+        database_filename: (str) name of file locaction to save as  
     Returns: 
         n/a
     """
