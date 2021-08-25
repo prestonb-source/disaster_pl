@@ -98,7 +98,8 @@ def build_model():
         ('classifier', MultiOutputClassifier(AdaBoostClassifier()))
     ])
     
-    parameters = {'classifier__estimator__n_estimators': [10, 20, 40]}
+    #I tried using more parameters but it took an extre
+    parameters = {'classifier__estimator__n_estimators': [10, 25, 50]}
 
     model = GridSearchCV(pipeline, param_grid=parameters, n_jobs=-1)   
     
