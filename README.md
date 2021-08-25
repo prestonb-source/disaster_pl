@@ -1,6 +1,36 @@
 # Disaster Response Pipeline Project
 
-### Instructions:
+## Table of Contents
+
+1. [Installation](#installation)
+2. [Project Motivation](#motivation)
+3. [File Descriptions](#files)
+4. [Instructions](#instructions)
+5. [Licensing, Authors, and Acknowledgements](#licensing)
+
+## Installation <a name="installation"></a>
+This code uses Python version 3.*.<br/>
+The specific libraries required are: 
+
+1. pandas
+2. numpy
+3. string
+4. nltk
+5. sklearn
+6. re
+7. pickle
+8. time
+9. joblib
+10. sqlalchemy
+
+## Project Motivation<a name="motivation"></a>
+
+This project, analyzes disaster data provided by Figure Eight to build a model for an API that classifies disaster messages. The purpose is to create an app that...
+
+## File Descriptions <a name="files"></a>
+
+### Instructions <a name="instructions"></a>
+
 1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
@@ -12,3 +42,8 @@
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/
+
+## Licensing, Authors, Acknowledgements<a name="licensing"></a>
+
+1. Udacity
+2. FigureEight
